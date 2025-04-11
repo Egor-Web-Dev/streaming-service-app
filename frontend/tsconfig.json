@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "moduleResolution": "Bundler",
+    "module": "esnext",
+    "target": "es2020",
+    "strict": true,
+    "sourceMap": true,
+    "baseUrl": "./",
+    "paths": {
+      "assets/*": ["src/assets/*"]
+    }
+  },
+  "files": ["src/index.ts"],
+  "include": ["src/**/*", "declarations"]
+}
